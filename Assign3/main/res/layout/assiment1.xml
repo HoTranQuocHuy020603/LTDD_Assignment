@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RadioGroup
+        android:id="@+id/nextImg"
+        android:layout_width="398dp"
+        android:layout_height="49dp"
+        android:layout_marginTop="24dp"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.428"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <RadioButton
+            android:id="@+id/img1"
+            android:layout_width="102dp"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="Image1"
+            tools:layout_editor_absoluteX="61dp"
+            tools:layout_editor_absoluteY="110dp" />
+
+        <RadioButton
+            android:id="@+id/img2"
+            android:layout_width="99dp"
+            android:layout_height="wrap_content"
+            android:text="Image2"
+            tools:layout_editor_absoluteX="33dp"
+            tools:layout_editor_absoluteY="43dp" />
+
+        <RadioButton
+            android:id="@+id/img3"
+            android:layout_width="98dp"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="Image3"
+            tools:layout_editor_absoluteX="71dp"
+            tools:layout_editor_absoluteY="302dp" />
+
+        <RadioButton
+            android:id="@+id/img4"
+            android:layout_width="104dp"
+            android:layout_height="wrap_content"
+            android:text="Image4"
+            tools:layout_editor_absoluteX="53dp"
+            tools:layout_editor_absoluteY="202dp" />
+
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="160dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="28dp"
+        android:text="Đây là ảnh 1"
+        android:textAlignment="center"
+        android:textColor="#F80707"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/nextImg" />
+
+    <Switch
+        android:id="@+id/switch1"
+        android:layout_width="139dp"
+        android:layout_height="59dp"
+        android:layout_marginTop="90dp"
+        android:checked="false"
+        android:text="Visible"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.685" />
+
+    <ImageView
+        android:id="@+id/image1"
+        android:layout_width="204dp"
+        android:layout_height="232dp"
+        android:layout_marginTop="176dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/image1" />
+
+    <Button
+        android:id="@+id/menuBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="44dp"
+        android:text="Show Context Menu"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
