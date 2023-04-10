@@ -1,1 +1,2 @@
-# Only main_ folder using android studio
+# Only main folder
+# All files need to  Android Studio to run
