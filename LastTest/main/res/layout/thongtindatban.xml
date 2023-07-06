@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="6dp"
+    android:elevation="6dp"
+    app:cardUseCompatPadding="true">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dp">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@mipmap/ic_launcher"
+            android:layout_centerVertical="true"
+            android:id="@+id/img1"
+            app:civ_border_width="2dp"
+            app:civ_border_color="#FF9800"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/name_table_txt"
+            android:text="tablename"
+            android:textStyle="bold"
+            android:textSize="35sp"
+            android:textColor="#FF9800"
+            android:layout_toRightOf="@+id/img1"
+            android:layout_marginLeft="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/name_dat_txt"
+            android:text="nguoidat"
+            android:textSize="25sp"
+            android:textColor="#B3B2B2"
+            android:layout_toRightOf="@+id/img1"
+            android:layout_below="@+id/name_table_txt"
+            android:layout_marginLeft="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/trang_thai_txt"
+            android:text="trangthai"
+            android:textSize="25sp"
+            android:textColor="#9F9B9B"
+            android:layout_toRightOf="@+id/img1"
+            android:layout_below="@+id/name_dat_txt"
+            android:layout_marginLeft="10dp"/>
+
+    </RelativeLayout>
+
+
+</androidx.cardview.widget.CardView>

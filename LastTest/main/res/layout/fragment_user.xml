@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".pagesframe.User"
+    android:background="@drawable/gallery2">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/user_desc"
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:src="@mipmap/ic_launcher"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="40dp"
+        app:civ_border_width="2dp"
+        app:civ_border_color="#FF9800"/>
+
+    <TextView
+        android:id="@+id/user_mail_desc"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="230dp"
+        android:text="nguoidat_desc"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:background="#E2302E2E"/>
+
+    <Button
+        android:id="@+id/add_comment_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:layout_marginTop="100dp"
+        android:layout_marginRight="5dp"
+        android:backgroundTint="#FF9800"
+        android:text="Bình luận" />
+
+    <Button
+        android:id="@+id/logout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:layout_marginTop="150dp"
+        android:layout_marginRight="5dp"
+        android:backgroundTint="#FF9800"
+        android:text="Đăng xuất" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_contact"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="300dp"/>
+
+</FrameLayout>
