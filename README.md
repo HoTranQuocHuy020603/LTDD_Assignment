@@ -1,6 +1,3 @@
-# Only main folder
-# All files need to  Android Studio to run
-# File LastTest is complete project. (demorestaurant)
 # LTDD_Assignment
 This is an repositories containing exercise files of mobile programming.
 ## Description of files
@@ -18,15 +15,17 @@ This is an repositories containing exercise files of mobile programming.
 > Before continuing, make sure you meet the following requirements:
 > * You have installed Android Studio
 > * You have downloaded the Android Studio support package.
+> * You have downloaded the virtual phone for Android Studio or you have connected this application to your phone.
 ## How to install the project ?
 ***Download project***
 - Step 1: Download the project to your computer.
-- Step 2: Unzip the project to the folder where the xampp folder is located.
+- Step 2: Unzip the project to a folder where the file you want to add.
   
 ***Project launch***
-- Step 1: Open the dowloaded file with Android  application.
-- Step 2: Launch Apache and MySQL.
-- Step 3: Go to the browser and type the following path: > localhost/_downloaded project_/.
+- Step 1: Open the Android Studio application.
+- Step 2: Create new activity project.
+- Step 3: Replace main project to main file you dowloaded (the file was unzip).
+- Step 4: Run it.
 ## Find me here:
 - Contact with Gmail: `hotranquochuy0306@gmail.com`
 - Github: [https://github.com/HoTranQuocHuy020603](https://github.com/HoTranQuocHuy020603/)
