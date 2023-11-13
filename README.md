@@ -15,16 +15,21 @@ This is an repositories containing exercise files of mobile programming.
 - LasTest:
 - LoginAndRegister:
 - TestURLImage: 
-## Điều kiện tiên quyết:
-Ngay sau phần giới thiệu của bạn, hãy thêm một phần có tiêu đề liệt kê bất kỳ kiến thức hoặc công cụ tiên quyết nào mà bất kỳ ai muốn sử dụng dự án có thể cần trước khi bắt đầu. Ví dụ: nếu nó chạy trên phiên bản Python mới nhất, hãy bảo họ cài đặt Python. Đây là một ví dụ:
-> `Prerequisites`
-> Before you continue, ensure you meet the following requirements:
-> * You have installed the latest version of Ruby.
-> * You are using a Linux or Mac OS machine. Windows is not currently supported.
-> * You have a basic understanding of graph theory.
-## Cách cài đặt:
-Cung cấp các bước cài đặt! Thật đáng ngạc nhiên khi có nhiều dự án t đã dùng qua chỉ cung cấp các hướng dẫn sử dụng cơ bản và họ mong bạn sẽ biết cách cài đặt nó một cách thần kỳ nào đó. Đảm bảo chia phần cài đặt thành các bước được đánh số nếu nó yêu cầu nhiều bước.
-- b1
-- b2
-- b3
+## Prerequisites:
+> Before continuing, make sure you meet the following requirements:
+> * You have installed XAMPP, Visual Studio Code and MySQL.
+> * You have downloaded the PHP support library: PHP Intelephense.
+## How to install the project ?
+***Download project***
+- Step 1: Download the project to your computer.
+- Step 2: Unzip the project to `xampp/htdocs` where the xampp folder is located.
+  
+***Project launch***
+- Step 1: Open the XAMPP application.
+- Step 2: Launch Apache and MySQL.
+- Step 3: Go to the browser and type the following path: > localhost/_downloaded project_/.
+## Find me here:
+- Contact with Gmail: `hotranquochuy0306@gmail.com`
+- Github: [https://github.com/HoTranQuocHuy020603](https://github.com/HoTranQuocHuy020603/)
+
 
