@@ -4,17 +4,16 @@
 # LTDD_Assignment
 This is an repositories containing exercise files of mobile programming.
 ## Description of files
-- Assign2: 
-- Assign3: 
-- Assign4:
-- Assign5:
-- Assign6:
-- Assign7-MusicPlayerService:
-- Assign7:
-- CRUD:
-- LasTest:
-- LoginAndRegister:
-- TestURLImage: 
+- Assign3: Switch Options.
+- Assign4: Recycler View.
+- Assign5: Login Form and button actions.
+- Assign6: Recycler View with description when hold click on the picture.
+- Assign7-MusicPlayerService: Music Service.
+- Assign7: Fragment
+- CRUD: Testing Create, Read, Update and Delete.
+- LastTest: Complete Project App (demorestaurant)
+- LoginAndRegister: Testing Login and Register.
+- TestURLImage: Tesing open URL Image.
 ## Prerequisites:
 > Before continuing, make sure you meet the following requirements:
 > * You have installed XAMPP, Visual Studio Code and MySQL.
